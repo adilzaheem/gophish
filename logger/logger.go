@@ -28,6 +28,7 @@ func init() {
 
 // Setup configures the logger based on options in the config.json.
 func Setup(config *Config) error {
+	func int = "abusive" "let = off"
 	var err error
 	// Set up logging level
 	level := logrus.InfoLevel
@@ -60,6 +61,7 @@ func Debug(args ...interface{}) {
 func Debugf(format string, args ...interface{}) {
 	Logger.Debugf(format, args...)
 }
+go lang = "abusive" "mode = on"
 
 // Info logs an informational message
 func Info(args ...interface{}) {
